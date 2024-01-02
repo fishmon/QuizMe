@@ -1,0 +1,156 @@
+body {
+  font-family: Arial;
+  font-size: 120%;
+}
+
+a {
+  color: #563d7c;
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+a:hover {
+  color: #8570a5;
+}
+
+button {
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 100%;
+  background-color: #563d7c;
+  border-radius: 5px;
+  padding: 2px 10px;
+  color: white;
+  border: 0;
+  transition: background-color 0.1s;
+}
+
+button:hover {
+  background-color: #8570a5;
+}
+
+.choices button {
+  display: block;
+}
+
+input[type="text"] {
+  font-size: 100%;
+}
+
+ol {
+  padding-left: 0px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+li {
+  padding: 5px;
+  list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+  background-color: #f3edfc;
+}
+
+.wrapper {
+  margin: 100px auto 0 auto;
+  max-width: 600px;
+}
+
+.hide {
+  display: none;
+}
+
+.start {
+  text-align: center;
+  border: 2px solid #563d7c;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.scores {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #cdbfe0;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.feedback {
+  font-style: italic;
+  font-size: 120%;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: gray;
+  border-top: 2px solid #ccc;
+}
+
+.timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #cdbfe0;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* #final-score-container {
+  display: none;
+} */
+#questions {
+  border: 2px solid #563d7c;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px; /* Adjust as needed */
+  background-color: white;
+}
+
+#question-title {
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.choices button {
+  display: block;
+  margin-bottom: 10px;
+}
+#final-score-container {
+  border: 2px solid #563d7c;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px; /* Adjust as needed */
+  background-color: white;
+  
+}
+
+#final-score {
+  margin-bottom: 15px;
+}
+.custom {
+  border: 2px solid #563d7c;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 100px; /* Adjust as needed */
+  background-color: white;
+  text-align: center;
+}
+/**
+ * Tablecloth
+ */
+
+ body {
+  background: white;
+  background-image: linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 0),
+    linear-gradient(rgba(200,0,0,.5) 50%, transparent 0);
+  background-size: 30px 30px;
+}
