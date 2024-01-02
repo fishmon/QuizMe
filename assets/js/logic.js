@@ -112,7 +112,6 @@ document.addEventListener("DOMContentLoaded", function () {
       const initials = initialsInput.value;
       console.log("Score saved:", initials, timeLeft);
   
-      // Redirect to highscores page or perform any other action as needed
       window.location.href = "./highscores.html";
     }
   });
